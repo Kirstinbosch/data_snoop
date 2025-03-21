@@ -2,6 +2,8 @@ ___
 layout: post
 title: "Data Snoop"
 description: "My new blog"
+date: 2025-03-21
+categories: blog
 theme: "jekyll-theme-cayman"
 url: "https://kirstinbosch.github.io/data_snoop"
 baseurl: "/data_snoop"
