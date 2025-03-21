@@ -4,8 +4,7 @@ description: "Just snooping around"
 baseurl: "/data_snoop"   
 url: "https://kirstinbosch.github.io"  # Change this to your repo URL  
 
-theme: jekyll-theme-cayman 
-paginate: 5   
+theme: jekyll-theme-cayman   
 
 # Plugins (GitHub Pages supports these by default)  
 plugins:
