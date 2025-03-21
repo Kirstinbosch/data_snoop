@@ -1,7 +1,7 @@
 title: "Data Snoop"  
 author: "Kirst"  
 description: "Just snooping around"  
-baseurl: ""   
+baseurl: "/"   
 url: "https://kirstinbosch.github.io/data_snoop/"  # Change this to your repo URL  
 
 theme: jekyll-theme-cayman 
