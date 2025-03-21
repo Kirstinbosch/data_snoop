@@ -2,7 +2,7 @@ title: "Data Snoop"
 author: "Kirst"  
 description: "Just snooping around"  
 baseurl: ""   
-url: "https://kirstinbosch.github.io"  # Change this to your repo URL  
+url: "https://kirstinbosch.github.io/data_snoop/"  # Change this to your repo URL  
 
 theme: cayman 
 paginate: 5   
