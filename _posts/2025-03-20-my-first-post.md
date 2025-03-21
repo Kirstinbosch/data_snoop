@@ -1,4 +1,5 @@
 ___
+layout: post
 title: "Data Snoop"
 description: "My new blog"
 theme: "jekyll-theme-cayman"
