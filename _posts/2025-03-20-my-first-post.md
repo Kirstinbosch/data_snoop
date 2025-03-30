@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data Snoop"
+title: "Post I"
 description: "My new blog"
 date: 2025-03-21
 categories: blog
