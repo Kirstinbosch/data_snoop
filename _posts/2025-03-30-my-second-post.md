@@ -13,7 +13,7 @@ paginate_path: "/page:num/"
 ---
 
 
-Micro-goal: 3 hours of statistics a day for 30 days
+Micro-goal: 3 hours of statistics a day for 30 days/n
 terms: (sample space, element, outcome, event (set), union, intersection, special events (null event/empty set, whole sample space, probability measure, axioms of probability, mutually exclusive events, independent events)
 
 ![Alt text](/_images/inclusion_exclusion.png)
