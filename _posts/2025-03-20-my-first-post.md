@@ -7,8 +7,7 @@ categories: blog
 theme: "jekyll-theme-minima"
 url: "https://kirstinbosch.github.io/data_snoop"
 baseurl: "/data_snoop"
-paginate: 5 
-paginate_path: "/page:num/"
+
 
 ---
 
