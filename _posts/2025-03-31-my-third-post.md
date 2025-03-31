@@ -13,7 +13,7 @@ Day 2.
 Topics covered: counting methods [ordered pairs/ k-tuples, permutations (ordered arrangement of objects -partial/ full), Combinations (unordered arrangement of objects), complementary events, independent events & multiplication principle, conditional probability, bayesian theory, partition of an event, law of total probability, tree diagram, two-way table)
 
 Why multiplication makes sense in independence?
-![Alt text](/_images/multiplication_principle.png)
+
 Probability of either event occuring is the multiple of the two.
 ex: flipping a coin and rolling a die
 probability of getting heads P(A) = 1/2
