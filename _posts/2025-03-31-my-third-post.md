@@ -24,8 +24,8 @@ What if we didnt multiply?
 If we added the probabilities, we would be overcounting. Addition only used when the events are mutually exclusive.
 
 Bayesian and Conditional Probability:
-bayesian --> MECE (mutually exclusive, collectively exhaustive) is a core principle, requires a partition of events as we need to calculate the total probability (not isolated)
-conditional --> useful but not required, focuses on a specific conidition & does not require all possible cases (isolated)
+bayesian --> MECE (mutually exclusive, collectively exhaustive) is a core principle, requires a partition of events as we need to calculate the total probability (not isolated), need to update a belief about one hypothesis B given evidence A, while considering all other possible hypotheses.
+conditional --> single event, specific scenario & does not necessarily consider the entire universe of possible scenarios, MECE useful but not required.
 
 *MECE framework used in problem-solving, consulting & stats to break down problems into clear, non-overlapping, complete components making it easier to analyse and solve.
 
