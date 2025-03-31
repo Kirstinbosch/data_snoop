@@ -10,4 +10,7 @@ baseurl: "/data_snoop"
 ---
 
 Day 2.
-Topics covered: counting methods [ordered pairs/ k-tuples, permutations (ordered arrangement of objects -partial/ full), Combinations (unordered arrangement of objects)
+Topics covered: counting methods [ordered pairs/ k-tuples, permutations (ordered arrangement of objects -partial/ full), Combinations (unordered arrangement of objects), complementary events, independent events & multiplication
+
+Why multiplication makes sense in independence?
+
