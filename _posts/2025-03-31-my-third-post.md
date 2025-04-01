@@ -29,3 +29,4 @@ conditional --> single event, specific scenario & does not necessarily consider 
 
 *MECE framework used in problem-solving, consulting & stats to break down problems into clear, non-overlapping, complete components making it easier to analyse and solve.
 
+
