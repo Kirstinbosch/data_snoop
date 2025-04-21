@@ -9,4 +9,48 @@ url: "https://kirstinbosch.github.io/data_snoop"
 baseurl: "/data_snoop"
 ---
 
+Terms: joint distributions, multivariate hyper-geomteric distribution, multivariate uniform distribution, multivariate normal distribution, marginal distributions (for jointly discrete/ continuous random variables), independent random variables
+
+Independent Random Variables:
+If you have two random variables, X and Y, you can talk about their joint probability distribution. This shows the probability of both events happening at the same time.
+P(X=x, Y=y) is the probability that X takes valu x and Y takes value y.
+
+Two random variables X and Y are independent if:
+P(X=x, Y=y) = P(X=x).P(Y=y) for all values x and y. This means that knowing the outcome of X gives no information about Y, and vice versa.
+ex: rolling two die
+X: result of first die
+Y: result of second die
+As each roll is independent:
+P(X=2, Y=5) = P(X=2).P(Y=5)= 1/6. 1/6 = 1/36
+
+For continuous variables, the same idea holds with density functions
+
+How to check for independence?
+--> check the joint distributions
+--> use conditional probability: if P(X|Y) = P(X), then X and Y are inpdendent.
+--> Covariance/correlation: zero correlation does not imply independence, but independence does imply zero correlation
+
+You can check for independence by comparing the joint distribution to the product of marginals
+example: 
+X: whether a person owns a dog
+X = 1 (yes), X = 0 (no)
+Y: whether the same person exercises daily
+Y = 1 (yes), Y = 0 (no)
+
+Conditional Joint Distribution:
+Gives the probability of two variables together, given that some condition is true about one(or more)variables.
+"What's the probability of X = x and Y= y given that something else (say Z = z or W > 5) is known?
+Why use it?
+--> analyse relationships under a specific condition
+--> understand how dependence behaves when part of the system is known
+--> feed into things like Bayes Theorem or expectations conditional on a variable
+
+
+
+
+
+
+
+
+
 
