@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Day 14"
+description: "My new blog"
+date: 2025-04-29
+categories: blog
+theme: "jekyll-theme-minima"
+url: "https://kirstinbosch.github.io/data_snoop"
+baseurl: "/data_snoop"
+---
+Constants & Variance:
+
+(1) Constants vs. Random Variables:
+E[c] = c
+--> Var(c) = E[(c - E[c])sqaured] --> Var(c) = E[0] = 0
+If something never changes, it has no variability
+
+(2) If we add a constant to a random variable, it does not affect its variance (since we use the linearity of expectation)
+
+(3) If we multiply a random variable by a constant, then its variance may change.
+a (2)⋅Var(X)
+
+Covariance: E[XY] - E[X].E[Y]
+(1) Var[X+Y] = Var[X] + Var[Y] + 2Cov(X,Y)
+(2) Var(aX+bY) = a(squared)Var[X] + b(squared)Var[Y] + 2abCov(X,Y)
+
