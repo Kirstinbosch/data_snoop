@@ -24,3 +24,58 @@ Sometimes, the product of MGFs turns out to be the MGF of a known distribution �
 Central Limit Theorem:
 MGFs are used to help prove the Central Limit Theorem, which says that the sum of many independent random variables tends toward a normal distribution under certain conditions
 Think of MGFs as a “summary” of a random variable that’s easy to combine when you’re adding variables together — like a shortcut.
+
+Basic Central Limit Theorem:
+Requires the random variables to be:
++ independent
++ Identically distributed
++ Have finite mean and finite variance
+so for this version, the variables do need to be of the same function - both exponential, both normal...
+
+Probabilistic Inequality:
++ Its like asking, "How likely is this event X to happen?", but we are working with limited information. It helps us estimate the highest possible probability (upper bound) that the event will occur based on one or two pieces of information. Its like providing a safety net or conservative estimate of the likelihood of an event, given limited knowledge of the distribution.
+
+Markovs Inequality:
++ probabilistic inequality that gives us an upper bound on the probability that a random variable takes a value greater then or equal to some positive number.
++ Useful when we dont know the exact distribution of a random variable, but we have basic information like its mean
++ what the formula means: the probability that X is greater than or equal to a is bounded by the ratio of the expected value of X to a. - iow, the probability that X is really large (greater than or equal to some number a) is less than or equal to the mean of X divided by that number
++ use because (1) no need for full distribution knowledge, (2) general application: as a general inequality, so it applies to many types of random variables, (3) conservative estimate: doesnt give the exact probability, but it gives a safe upper bound (max possible probability), which can be nice in situations where we want to avoid underestimating risk or uncertainty
+example: say we have random variable X with an expected value of 10. We want to know the probability that X is greater than or equal to 20.
+So it's 10/20 = 0.5.
+This tells us that the probability that X is greater than or equal to 20 is at most 50%. In other words, it is unlikely, but we dont know how unlikely it is exactly.
++ Can be applied to any distribution that satisfies the condition of being non-negative
+
+Chebyshev's Inequality:
++ Tells you how much of the data is close to the mean, no matter what the distribution looks like - as long as the variance exists. It gives a bound on the probability that a random variable is far from its mean, based on the mean and variance.
+"No matter what the shape of the distribution is, at least a certain amount of values must be near the mean."
++ It relates to variance but in a very general way
++ Variance tells you how spread out your ata is - so Chebyshevs is saying, 'given that spread, I can guarantee that most data stays near the center - even if the distribution is weird'.
+Requirements:
++ a finite mean & finite/ non-zero variance
+
+Hoeffding's Inequality:
++ Gives a strong bound on how much the sample mean of a set of random variables can deviate from the true mean.
+Apples when:
++ You have independent random variables
+Each variable is bounded - meaning each one lies between a min and max value
+
+Cauchy-Schwarz Inequality
+"Two things can't be more related than their own internal variation allows." - it sets a ceiling on how strong the connection (correlation) between two things can be, based on how big they are on their own
+
+Jenson's Inequality:
+"If you apply a convex function after taking the expectation, it's less than or equal to applying the function before taking the expectation."
+convex function - "curves upwards" like a bowl
+
+The Weak Law of Large Numbers:
+As you collect more and more independent observations of a random variable, the sample average gets closer and closer to the true population mean.
+'weak' - weak refers to the type of convergence it gurantees
+
+
+
+
+
+
+
+
+
+
