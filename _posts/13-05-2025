@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Day ..."
+description: "My new blog"
+date: 2025-05-13
+categories: blog
+theme: "jekyll-theme-minima"
+url: "https://kirstinbosch.github.io/data_snoop"
+baseurl: "/data_snoop"
+---
+
+Moment generating functions:
++ A useful property of momernt generating functions is that they make it easy to handle sums of independent random variables
+If you have independent random variables X(1), X(2), X(3)....  and you want to understand the distribution or moments of their sum
+S = X(1) + X(2) + X (3) ....
+Then the MGF of the sum is the product of the individual MGFs.
+This only works if the X(i) are independent
+
+Why is this useful?
+Much easier math:
+Instead of trying to calculate expectations or variances of a complex sum directly, you can just multiply MGFs and then differentiate to get moments.
+Identifying distributions:
+Sometimes, the product of MGFs turns out to be the MGF of a known distribution — so you immediately know what distribution the sum follows.
+Central Limit Theorem:
+MGFs are used to help prove the Central Limit Theorem, which says that the sum of many independent random variables tends toward a normal distribution under certain conditions
+Think of MGFs as a “summary” of a random variable that’s easy to combine when you’re adding variables together — like a shortcut.
