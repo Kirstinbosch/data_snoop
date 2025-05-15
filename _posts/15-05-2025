@@ -1,0 +1,79 @@
+---
+layout: post
+title: "Day ..."
+description: "My new blog"
+date: 2025-05-15
+categories: blog
+theme: "jekyll-theme-minima"
+url: "https://kirstinbosch.github.io/data_snoop"
+baseurl: "/data_snoop"
+---
+
+Kolmogorov's Axioms:
+(1) Axiom 1: Non-negativity
+For any event A in the sample sapce P(A) > (or equal to) 0
+Interpretation: Probability can't be negative
+
+(2) Axiom 2: Normalization (Total Probability = 1)
+P(S) = 1
+where S is the sample space (the set of all possible outcomes)
+Interpretation: something in the sample sape must happen, the total probability across all possible outcomes is exactly 1
+
+(3) Axiom 3: Additivity ( for mutually exclusive events)
+If A and B are mutually exclusive (they cannot happen at once), then:
+P(A union B) = P(A) + P(B)
+Interpretation: If events can't happen at the same time (mutually exclusive), you can just add their probabilities
+
+Common mistakes:
+1. mistake: adding probabilitieas of events that are not mutually exclusive
+wrong: P(A union B) = P(A) + P(B) even when A and B can happen together
+why its wrong: if A and B can both happen, the overlap gets counted twice.
+correct: P(A union B) = P(A) + P(B) -P(A intersection B)
+
+Mutually exclusive (cannot happen at the same time):
+A intersection B = 0
+Independent (knowing tone happened does not change the probability of the other
+P(A intersection B) = P(A) * P(B) 
+If A and B are mutually exclusive and both have non-zero probability, they cannot be independent. Because if A happens, then P(B|A) = 0, not P(B)
+example:rolling a six-sided die
+A = rolling a 2 P(A) = 1/6
+B = rolling a 5 P(B) = 1/6
+these events are mutually exclusive: you cant roll a 2 and a 5 at the same time --> A intersection B = 0 & non-zero
+check for independence:
+Compute P(A intersection B)
+Since A and B are mutually exclusive --> P(A intersection B) = 0
+check for independence
+If A and B were independent --> P(A intersection B) = P(A) * P(B)
+P(A) * P(B) = 1/6 * 1/6 = 1 /36
+but we just saw that P(A intersection B) = 0, not 1/36
+So A and B cannot be independent
+Intuition: if A happens (roll 2), then B cannot happen - because they are mutually exclusive. Meaning:
+P(B|A) = 0
+but for independent events we require:
+P(B|A) = P(B) 
+and its not true here
+Conclusion:
+Two events cannot be both mutually excluysive & 
+independent (unless one of them has a probability 0
+
+Summary:
+Mutually exclusive:
+P(A intersection B) = 0
+You can add up mutually exclusive events: P(A union B) = P(A) + P(B) if P(A intersection B) = 0
+the total probability of any of them happening is just the sum of their individual probailities
+Asking "What is the chance that any of these events occur?"
+
+Independence:
+P(A n B) = P(A) * P(B)
+You cant just add up independent events due to the overlap (double counting)
+P(A u B) = P(A) + P(B) - P(A n B)
+
+
+
+
+
+
+
+
+
+
