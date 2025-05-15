@@ -18,8 +18,9 @@ Interpretation: Probability can't be negative
 P(S) = 1
 where S is the sample space (the set of all possible outcomes)
 Interpretation: something in the sample sape must happen, the total probability across all possible outcomes is exactly 1
+* normalization: means adjusting or defining probabilities so that the total over the whole sample space is exactly 1 - ensures that the model is valid
 
-(3) Axiom 3: Additivity ( for mutually exclusive events)
+(3) Axiom 3: Additivity (for mutually exclusive events)
 If A and B are mutually exclusive (they cannot happen at once), then:
 P(A union B) = P(A) + P(B)
 Interpretation: If events can't happen at the same time (mutually exclusive), you can just add their probabilities
