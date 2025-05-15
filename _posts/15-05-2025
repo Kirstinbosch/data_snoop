@@ -69,6 +69,38 @@ P(A n B) = P(A) * P(B)
 You cant just add up independent events due to the overlap (double counting)
 P(A u B) = P(A) + P(B) - P(A n B)
 
+When deciding which counting formula to use:
+Does order matter? Permutation
+Are roles assigned? (like president, VP,...)? permutation
+Is it a group, team, or subset? Combination
+
+Permutation with repetition vs permutation without repetition:
+1. Are you allowed to re-use elements? --> repetition
+ex: creating a pin or password with digits or letters
+2. If no, then it's a permutation without repetition
+ex: arranging books on a shelf, or assigning unique roles
+
+How to spot "repetition allowed": 'keywords'
++ can repeat, unlimitied use, choose without replacement
+How to spot "no repetition":
++ different elements, no duplicates, can only be chosen once, without replacement
+
+Effect on counting:
+permutation without repetition n! / (n-k)! 
+permutation with repetition n(power of r) (r= each of r positions chosen independently)
+
+Summary thought pattern:
+First: Does order matter?
+→ No → Combination
+→ Yes → Permutation
+
+Second (if permutation): Are repeats allowed?
+→ Yes → Permutation with repetition → 𝑛(power of r)
+
+ 
+→ No → Permutation without repetition → P(n,r)
+
+
 
 
 
