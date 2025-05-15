@@ -96,10 +96,25 @@ First: Does order matter?
 
 Second (if permutation): Are repeats allowed?
 → Yes → Permutation with repetition → 𝑛(power of r)
-
- 
 → No → Permutation without repetition → P(n,r)
 
+When to use Bayes vs. Conditional probability Formula:
+
+1. Use the basic conditional probability formula when:
+
+P(A|B) = P(A n B) / P(B)
+
+when you are given:
++ the joint probability (P(A n B)
++ the marginal proability P(B)
+clue: you already know the overlap and the total of B - just divide
+
+2. Use Bayes' Theorem when:
++ you're given P(B|A) but you need P(A|B)
++ you need to flip the conditional probability
++ your given the likelihood of B given different conditions (eg.test results, symptoms)
++ it's a diagnostic, classification, or filtering problem (comon in medicine, spam, filtering, etc)
++clue: you know how likely B is under each possible A, and you¡re trying to reverse the conditioning
 
 
 
